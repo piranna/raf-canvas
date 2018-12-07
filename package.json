@@ -1,0 +1,26 @@
+{
+  "name": "raf-canvas",
+  "version": "0.0.0",
+  "description": "`requestAnimationFrame` for `node-canvas`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "raf",
+    "requestAnimationFrame",
+    "cancelAnimationFrame",
+    "canvas",
+    "node-canvas",
+    "vsync",
+    "vblank"
+  ],
+  "author": "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "canvas": "github:ventrata/node-canvas#FbDev_vsync"
+  },
+  "peerDependencies": {
+    "canvas": "github:ventrata/node-canvas#FbDev_vsync"
+  }
+}
